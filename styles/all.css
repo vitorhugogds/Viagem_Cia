@@ -1,0 +1,102 @@
+#menu {
+    background-color: #b3b3b3;
+}
+
+#menu a{
+    color: black;
+}
+
+/*titulo do website*/
+#titulo{
+    padding: 200px 0px 0px 20px;
+}
+
+#imgMain {
+    margin-left: 1600px;
+    margin-top: -230px;
+    border-radius: 130px;
+}
+
+#imgMain img{
+    border-radius: 200px;
+}
+
+/*explore*/
+
+#explore{
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px 0px 0px;
+}
+
+
+#subExplore{
+    display: flex;
+    justify-content: space-between;
+    padding: 50px ;
+}
+
+
+/*comentarios*/
+
+#placeholder{
+    display: flex;
+    padding: 100px 0px 0px 0px;
+}
+
+#comentarios{
+    padding: 30px 0px 30px 60px;
+}
+
+#comentarioScript{
+    display: flex;
+}
+
+#search{
+    display: flex;
+    flex-direction: column;
+    height: auto;
+    margin-top: -780px;
+    margin-left: 1250px;
+    align-items: center;
+}
+
+#menuMain{
+    width: 500px;
+    
+}
+
+#menuMain ul li{
+    background-color: rgb(197, 197, 197);
+    padding: 15px;
+    border-radius: 10px;
+}
+
+#menuMain a{
+    text-decoration: none;
+    color: black;
+}
+
+#search input{
+    width: 300px;
+}
+
+/*networking*/
+
+#networking{
+    padding: 400px 0px 30px 0px;
+    text-align: center  ;
+}
+
+#subNetworking{
+    
+}
+
+footer{
+    background-color: black;
+}
+
+#contatos{
+    color: white;
+    text-align: center;
+}
