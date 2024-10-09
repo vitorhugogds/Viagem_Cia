@@ -59,6 +59,7 @@
     margin-top: -780px;
     margin-left: 1250px;
     align-items: center;
+    padding: 0px 0px 342px 0px;
 }
 
 #menuMain{
@@ -84,12 +85,31 @@
 /*networking*/
 
 #networking{
-    padding: 400px 0px 30px 0px;
+    padding: 10px 0px 30px 0px;
     text-align: center  ;
+    background-color: #b3b3b3;
 }
 
 #subNetworking{
-    
+    display: flex;
+    background-color: #b3b3b3;
+}
+
+#subtituloNetworking{
+    padding: 40px 0px 0px 20px;
+}
+
+#subtituloNetworking h3{
+    padding: 10px 0px 20px 20px;
+}
+
+#images{
+    display: flex;
+    padding: 20px;
+}
+
+#images img{
+    padding: 15px;
 }
 
 footer{

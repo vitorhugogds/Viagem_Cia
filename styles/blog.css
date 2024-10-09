@@ -1,0 +1,21 @@
+body{
+    background-color: rgb(172, 172, 172);
+}
+
+#comentarios{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    background-color: white;
+}
+
+h1{
+    text-align: center;
+    padding: 15px 0px 0px 0px;
+}
+
+#linkDiv a{
+    text-decoration: none;
+    color: black;
+}
+
