@@ -26,13 +26,15 @@ todosPacotes.forEach(cadaPacote => {
     document.getElementById("comentarios").innerHTML += `
         <div style="width: 23rem; padding: 20px;">
             <div id="comentarioScript">
-                <img src="${cadaPacote.srcImg}" alt="...">
-                <div style="padding: 25px 0px 0px 10px ; width: 200px;">
-                    <h5>${cadaPacote.nome}</h5>
-                    <p>${cadaPacote.descricao}</p>
-                    <p >${cadaPacote.comentario}</p>
-                    <p style="padding: 25px 0px 0px 0px; width: 100px;">${cadaPacote.post}</p>
-                </div>
+                <a href="../pages/sobreAutor.html">
+                    <img src="${cadaPacote.srcImg}" alt="...">
+                </a>
+                    <div style="padding: 25px 0px 0px 10px ; width: 200px;">
+                        <h5>${cadaPacote.nome}</h5>
+                        <p>${cadaPacote.descricao}</p>
+                        <p >${cadaPacote.comentario}</p>
+                        <p style="padding: 25px 0px 0px 0px; width: 100px;">${cadaPacote.post}</p>
+                    </div>
             </div>
         </div>
     

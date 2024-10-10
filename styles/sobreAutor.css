@@ -39,97 +39,63 @@ header a{
 
 }
 
+/* Fim Header */
+
+/* Main */
+
 main{
     width: 100%;
-    margin: 10px 0px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-}
-
-#PrimeiroTime{
-    width: 70%;
     height: auto;
+    margin: 20px 0px;
     display: flex;
     flex-direction: row;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
 }
 
-#ImgDono{
-    width: 50%;
+#Geral{
+    width: 60%;
+    height: 600px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
 }
 
-#ImgDono img{
-    width: 60%;
-    height: 600px;
-
-}
-
-#SobreAutor{
-    width: 50%;
+#Infos{
+    width: 90%;
     text-align: center;
 }
 
-#Direita{
-    width: 20%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: start;
-    align-items: center;
-    gap: 30px;
+#Infos button{
+    padding: 5px;
+    color: whitesmoke;
+    border: 2px solid black;
+    background-color: black;
 }
 
-#Trabalhos{
+#Infos img{
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
+    height: 400px;
+    background-color: rgb(189, 189, 189);
+
 }
 
-#Imagens{
+#Autor{
     width: 100%;
-    gap: 10px;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    text-align: center;
 }
 
-.Img1{
-    width: 90px;
-    margin: 10px;
-}
-
-#SegundoTime{
-    width: 70%;
-    margin: 20px 0px;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+#Autor img{
+    width: 100%;
 
 }
 
-#TerceiroTime{
-    width: 70%;
-    margin: 20px 0px;
-    height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-}
 
 
+
+
+/* Footer */
 
 footer{
     width: 100%;
@@ -149,4 +115,3 @@ footer{
     align-items: center;
     color: whitesmoke;
 }
-
